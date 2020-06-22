@@ -195,7 +195,7 @@ async def start_discord_rich_presence() -> None:
 
 print(crayons.cyan(f'[PartyBot] [{time()}] .. '
                    '.'))
-print(crayons.cyan(f'[PartyBot] [{time()}] lostgoldplayer'))
+print(crayons.cyan(f'[PartyBot] [{time()}] made by lostgoldplayer'))
 
 with open('config.json') as f:
     data = json.load(f)
